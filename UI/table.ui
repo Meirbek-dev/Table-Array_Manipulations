@@ -10,7 +10,7 @@
                 <x>0</x>
                 <y>0</y>
                 <width>609</width>
-                <height>340</height>
+                <height>288</height>
             </rect>
         </property>
         <property name="sizePolicy">
@@ -22,13 +22,13 @@
         <property name="minimumSize">
             <size>
                 <width>609</width>
-                <height>340</height>
+                <height>288</height>
             </size>
         </property>
         <property name="maximumSize">
             <size>
                 <width>609</width>
-                <height>340</height>
+                <height>288</height>
             </size>
         </property>
         <property name="font">
@@ -101,7 +101,7 @@
             <property name="geometry">
                 <rect>
                     <x>10</x>
-                    <y>250</y>
+                    <y>200</y>
                     <width>591</width>
                     <height>81</height>
                 </rect>
@@ -226,102 +226,102 @@
             </column>
             <item row="0" column="0">
                 <property name="text">
-                    <string>0</string>
+                    <string/>
                 </property>
             </item>
             <item row="0" column="1">
                 <property name="text">
-                    <string>0</string>
+                    <string/>
                 </property>
             </item>
             <item row="0" column="2">
                 <property name="text">
-                    <string>0</string>
+                    <string/>
                 </property>
             </item>
             <item row="0" column="3">
                 <property name="text">
-                    <string>4</string>
+                    <string/>
                 </property>
             </item>
             <item row="0" column="4">
                 <property name="text">
-                    <string>5</string>
+                    <string/>
                 </property>
             </item>
             <item row="1" column="0">
                 <property name="text">
-                    <string>1</string>
+                    <string/>
                 </property>
             </item>
             <item row="1" column="1">
                 <property name="text">
-                    <string>2</string>
+                    <string/>
                 </property>
             </item>
             <item row="1" column="2">
                 <property name="text">
-                    <string>0</string>
+                    <string/>
                 </property>
             </item>
             <item row="1" column="3">
                 <property name="text">
-                    <string>4</string>
+                    <string/>
                 </property>
             </item>
             <item row="1" column="4">
                 <property name="text">
-                    <string>5</string>
+                    <string/>
                 </property>
             </item>
             <item row="2" column="0">
                 <property name="text">
-                    <string>1</string>
+                    <string/>
                 </property>
             </item>
             <item row="2" column="1">
                 <property name="text">
-                    <string>2</string>
+                    <string/>
                 </property>
             </item>
             <item row="2" column="2">
                 <property name="text">
-                    <string>3</string>
+                    <string/>
                 </property>
             </item>
             <item row="2" column="3">
                 <property name="text">
-                    <string>0</string>
+                    <string/>
                 </property>
             </item>
             <item row="2" column="4">
                 <property name="text">
-                    <string>5</string>
+                    <string/>
                 </property>
             </item>
             <item row="3" column="0">
                 <property name="text">
-                    <string>1</string>
+                    <string/>
                 </property>
             </item>
             <item row="3" column="1">
                 <property name="text">
-                    <string>2</string>
+                    <string/>
                 </property>
             </item>
             <item row="3" column="2">
                 <property name="text">
-                    <string>3</string>
+                    <string/>
                 </property>
             </item>
             <item row="3" column="3">
                 <property name="text">
-                    <string>4</string>
+                    <string/>
                 </property>
             </item>
             <item row="3" column="4">
                 <property name="text">
-                    <string>0</string>
+                    <string/>
                 </property>
             </item>
         </widget>
@@ -331,34 +331,16 @@
                     <x>10</x>
                     <y>140</y>
                     <width>591</width>
-                    <height>101</height>
+                    <height>48</height>
                 </rect>
             </property>
             <layout class="QHBoxLayout" name="horizontalLayout">
                 <item>
-                    <layout class="QVBoxLayout" name="verticalLayout">
-                        <item>
-                            <widget class="QLabel" name="label_zero_amount">
-                                <property name="text">
-                                    <string>Количество нулей:</string>
-                                </property>
-                            </widget>
-                        </item>
-                        <item>
-                            <widget class="QLabel" name="label_zero_index">
-                                <property name="text">
-                                    <string>Индекс нулей:</string>
-                                </property>
-                            </widget>
-                        </item>
-                        <item>
-                            <widget class="QLabel" name="label_odds">
-                                <property name="text">
-                                    <string>Количество нечётных элементов:</string>
-                                </property>
-                            </widget>
-                        </item>
-                    </layout>
+                    <widget class="QLabel" name="label_zero_amount">
+                        <property name="text">
+                            <string>Количество нулей:</string>
+                        </property>
+                    </widget>
                 </item>
                 <item>
                     <widget class="QLabel" name="label_status">
@@ -375,6 +357,9 @@
                         </property>
                         <property name="text">
                             <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                        </property>
+                        <property name="alignment">
+                            <set>Qt::AlignCenter</set>
                         </property>
                     </widget>
                 </item>
