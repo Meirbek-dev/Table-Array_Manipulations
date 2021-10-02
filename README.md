@@ -20,8 +20,8 @@
 
 ## Задание №3.1
 
-![console/output](console/output.png)
+![console/output](Сonsole/output.png)
 
 ## Задание №3.2
 
-![ui/solve](ui/solve.png)
+![ui/solve](UI/solve.png)
