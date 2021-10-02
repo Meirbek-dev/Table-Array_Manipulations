@@ -20,7 +20,7 @@
 
 ## Задание №3.1
 
-![console/output](Сonsole/output.png)
+![console/output](Console/output.png)
 
 ## Задание №3.2
 
