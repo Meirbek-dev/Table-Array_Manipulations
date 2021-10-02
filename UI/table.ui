@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>Form</class>
+    <widget class="QWidget" name="Form">
+        <property name="windowModality">
+            <enum>Qt::NonModal</enum>
+        </property>
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>609</width>
+                <height>340</height>
+            </rect>
+        </property>
+        <property name="sizePolicy">
+            <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                <horstretch>0</horstretch>
+                <verstretch>0</verstretch>
+            </sizepolicy>
+        </property>
+        <property name="minimumSize">
+            <size>
+                <width>609</width>
+                <height>340</height>
+            </size>
+        </property>
+        <property name="maximumSize">
+            <size>
+                <width>609</width>
+                <height>340</height>
+            </size>
+        </property>
+        <property name="font">
+            <font>
+                <family>Calibri</family>
+                <pointsize>14</pointsize>
+            </font>
+        </property>
+        <property name="windowTitle">
+            <string>Table-Array PyQt5</string>
+        </property>
+        <property name="windowIcon">
+            <iconset>
+                <normaloff>logo.png</normaloff>logo.png
+            </iconset>
+        </property>
+        <property name="toolTip">
+            <string notr="true"/>
+        </property>
+        <property name="accessibleName">
+            <string notr="true"/>
+        </property>
+        <property name="accessibleDescription">
+            <string notr="true"/>
+        </property>
+        <property name="locale">
+            <locale language="Russian" country="Russia"/>
+        </property>
+        <widget class="QPushButton" name="pushButton_fill">
+            <property name="geometry">
+                <rect>
+                    <x>380</x>
+                    <y>20</y>
+                    <width>221</width>
+                    <height>31</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <family>Calibri</family>
+                    <pointsize>14</pointsize>
+                </font>
+            </property>
+            <property name="text">
+                <string>Заполнить случ. числами</string>
+            </property>
+        </widget>
+        <widget class="QPushButton" name="pushButton_execute">
+            <property name="geometry">
+                <rect>
+                    <x>380</x>
+                    <y>90</y>
+                    <width>221</width>
+                    <height>31</height>
+                </rect>
+            </property>
+            <property name="font">
+                <font>
+                    <family>Calibri</family>
+                    <pointsize>14</pointsize>
+                    <weight>50</weight>
+                    <bold>false</bold>
+                </font>
+            </property>
+            <property name="text">
+                <string>Выполнить задание</string>
+            </property>
+        </widget>
+        <widget class="QLabel" name="label_task">
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>250</y>
+                    <width>591</width>
+                    <height>81</height>
+                </rect>
+            </property>
+            <property name="styleSheet">
+                <string notr="true">border : 2px solid black;</string>
+            </property>
+            <property name="text">
+                <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;Вариант
+                    №1&lt;/span&gt;&lt;br/&gt;Подсчитать количество нулей в таблице и заменить на это значение все&lt;br/&gt;нечетные
+                    целые элементы таблицы&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;
+                </string>
+            </property>
+        </widget>
+        <widget class="QTableWidget" name="tableWidget">
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>10</y>
+                    <width>351</width>
+                    <height>121</height>
+                </rect>
+            </property>
+            <property name="sizePolicy">
+                <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+                    <horstretch>0</horstretch>
+                    <verstretch>0</verstretch>
+                </sizepolicy>
+            </property>
+            <property name="font">
+                <font>
+                    <family>Calibri</family>
+                    <pointsize>14</pointsize>
+                </font>
+            </property>
+            <property name="focusPolicy">
+                <enum>Qt::ClickFocus</enum>
+            </property>
+            <property name="frameShape">
+                <enum>QFrame::Panel</enum>
+            </property>
+            <property name="verticalScrollBarPolicy">
+                <enum>Qt::ScrollBarAlwaysOff</enum>
+            </property>
+            <property name="horizontalScrollBarPolicy">
+                <enum>Qt::ScrollBarAlwaysOff</enum>
+            </property>
+            <property name="sizeAdjustPolicy">
+                <enum>QAbstractScrollArea::AdjustToContents</enum>
+            </property>
+            <property name="autoScroll">
+                <bool>false</bool>
+            </property>
+            <property name="selectionMode">
+                <enum>QAbstractItemView::SingleSelection</enum>
+            </property>
+            <attribute name="horizontalHeaderVisible">
+                <bool>false</bool>
+            </attribute>
+            <attribute name="horizontalHeaderMinimumSectionSize">
+                <number>70</number>
+            </attribute>
+            <attribute name="horizontalHeaderDefaultSectionSize">
+                <number>70</number>
+            </attribute>
+            <attribute name="verticalHeaderVisible">
+                <bool>false</bool>
+            </attribute>
+            <attribute name="verticalHeaderCascadingSectionResizes">
+                <bool>false</bool>
+            </attribute>
+            <attribute name="verticalHeaderMinimumSectionSize">
+                <number>30</number>
+            </attribute>
+            <attribute name="verticalHeaderDefaultSectionSize">
+                <number>30</number>
+            </attribute>
+            <row>
+                <property name="text">
+                    <string>1</string>
+                </property>
+            </row>
+            <row>
+                <property name="text">
+                    <string>2</string>
+                </property>
+            </row>
+            <row>
+                <property name="text">
+                    <string>3</string>
+                </property>
+            </row>
+            <row>
+                <property name="text">
+                    <string>4</string>
+                </property>
+            </row>
+            <column>
+                <property name="text">
+                    <string>1</string>
+                </property>
+            </column>
+            <column>
+                <property name="text">
+                    <string>2</string>
+                </property>
+            </column>
+            <column>
+                <property name="text">
+                    <string>3</string>
+                </property>
+            </column>
+            <column>
+                <property name="text">
+                    <string>4</string>
+                </property>
+            </column>
+            <column>
+                <property name="text">
+                    <string>5</string>
+                </property>
+            </column>
+            <item row="0" column="0">
+                <property name="text">
+                    <string>0</string>
+                </property>
+            </item>
+            <item row="0" column="1">
+                <property name="text">
+                    <string>0</string>
+                </property>
+            </item>
+            <item row="0" column="2">
+                <property name="text">
+                    <string>0</string>
+                </property>
+            </item>
+            <item row="0" column="3">
+                <property name="text">
+                    <string>4</string>
+                </property>
+            </item>
+            <item row="0" column="4">
+                <property name="text">
+                    <string>5</string>
+                </property>
+            </item>
+            <item row="1" column="0">
+                <property name="text">
+                    <string>1</string>
+                </property>
+            </item>
+            <item row="1" column="1">
+                <property name="text">
+                    <string>2</string>
+                </property>
+            </item>
+            <item row="1" column="2">
+                <property name="text">
+                    <string>0</string>
+                </property>
+            </item>
+            <item row="1" column="3">
+                <property name="text">
+                    <string>4</string>
+                </property>
+            </item>
+            <item row="1" column="4">
+                <property name="text">
+                    <string>5</string>
+                </property>
+            </item>
+            <item row="2" column="0">
+                <property name="text">
+                    <string>1</string>
+                </property>
+            </item>
+            <item row="2" column="1">
+                <property name="text">
+                    <string>2</string>
+                </property>
+            </item>
+            <item row="2" column="2">
+                <property name="text">
+                    <string>3</string>
+                </property>
+            </item>
+            <item row="2" column="3">
+                <property name="text">
+                    <string>0</string>
+                </property>
+            </item>
+            <item row="2" column="4">
+                <property name="text">
+                    <string>5</string>
+                </property>
+            </item>
+            <item row="3" column="0">
+                <property name="text">
+                    <string>1</string>
+                </property>
+            </item>
+            <item row="3" column="1">
+                <property name="text">
+                    <string>2</string>
+                </property>
+            </item>
+            <item row="3" column="2">
+                <property name="text">
+                    <string>3</string>
+                </property>
+            </item>
+            <item row="3" column="3">
+                <property name="text">
+                    <string>4</string>
+                </property>
+            </item>
+            <item row="3" column="4">
+                <property name="text">
+                    <string>0</string>
+                </property>
+            </item>
+        </widget>
+        <widget class="QWidget" name="horizontalLayoutWidget">
+            <property name="geometry">
+                <rect>
+                    <x>10</x>
+                    <y>140</y>
+                    <width>591</width>
+                    <height>101</height>
+                </rect>
+            </property>
+            <layout class="QHBoxLayout" name="horizontalLayout">
+                <item>
+                    <layout class="QVBoxLayout" name="verticalLayout">
+                        <item>
+                            <widget class="QLabel" name="label_zero_amount">
+                                <property name="text">
+                                    <string>Количество нулей:</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item>
+                            <widget class="QLabel" name="label_zero_index">
+                                <property name="text">
+                                    <string>Индекс нулей:</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item>
+                            <widget class="QLabel" name="label_odds">
+                                <property name="text">
+                                    <string>Количество нечётных элементов:</string>
+                                </property>
+                            </widget>
+                        </item>
+                    </layout>
+                </item>
+                <item>
+                    <widget class="QLabel" name="label_status">
+                        <property name="font">
+                            <font>
+                                <family>Calibri</family>
+                                <pointsize>14</pointsize>
+                                <weight>75</weight>
+                                <bold>true</bold>
+                            </font>
+                        </property>
+                        <property name="styleSheet">
+                            <string notr="true">color: red;</string>
+                        </property>
+                        <property name="text">
+                            <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;br/&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+                        </property>
+                    </widget>
+                </item>
+            </layout>
+        </widget>
+    </widget>
+    <resources/>
+    <connections/>
+</ui>
